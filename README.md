@@ -18,11 +18,13 @@ The dataset used for this project includes information about data science job po
 
 ## Installation
 1. Clone this repository to your local machine.
+
 git clone https://github.com/your-username/data-science-salary-prediction.git
 cd data-science-salary-prediction
 
 
-2. Install the required Python packages using pip.
+3. Install the required Python packages using pip.
+
 pip install -r requirements.txt
 
 
@@ -30,6 +32,7 @@ pip install -r requirements.txt
 1. Ensure you have the dataset (data.csv) in the project directory.
 
 2. Run the main prediction script.
+
 python predict_salary.py
 
 3. The script will train and evaluate both Decision Tree Regressor and Random Forest Regressor models, providing insights into their predictive capabilities.
