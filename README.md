@@ -1,6 +1,11 @@
 # Data Science Salary Prediction
 
-This project aims to predict data science salaries based on various features such as experience level, employment type, employee residence, company location, and more.
+In the dynamic and ever-evolving realm of data science, one of the most pressing questions for both job seekers and employers alike is the determination of fair and competitive salaries. The Data Scientist Salary Prediction project embarks on a journey to harness the power of advanced machine learning techniques to provide accurate salary estimates based on a multitude of influential factors. 
+
+This project is dedicated to creating a robust and accurate method for predicting data scientist salaries. I base our predictions on essential attributes such as work year, experience level, employment type, job title, employee residence, remote work ratio, company location, and company size. I'll explore these attributes to create a predictive tool that assists job seekers in evaluating potential compensation and helps employers offer competitive salary packages.
+
+Throughout this project, I will focus on data processing, feature engineering, and rigorous testing of various machine learning algorithms. By the end, I aim to deliver a practical and dependable solution that simplifies the salary estimation process for data scientists, promoting fairness and competitiveness in the job market.
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,6 +14,7 @@ This project aims to predict data science salaries based on various features suc
 - [Usage](#usage)
 - [Models](#models)
 - [Evaluation](#evaluation)
+
 
 ## Introduction
 Predicting data science salaries is a common problem in the job market. This project explores the use of machine learning algorithms to forecast salaries based on factors that influence compensation.
@@ -29,7 +35,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-1. Ensure you have the dataset (data.csv) in the project directory.
+1. Ensure you have the dataset (ds_salaries.csv) in the project directory.
 
 2. Run the main prediction script.
 
