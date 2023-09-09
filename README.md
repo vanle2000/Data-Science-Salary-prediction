@@ -44,11 +44,16 @@ python predict_salary.py
 3. The script will train and evaluate both Decision Tree Regressor and Random Forest Regressor models, providing insights into their predictive capabilities.
 
 ## Models
+### Multilinear Regression
+
 ### Decision Tree Regressor
 The Decision Tree Regressor is a single decision tree-based model designed to predict salaries. It constructs a tree structure where each internal node represents a decision based on a specific feature, leading to a final salary prediction in the leaf nodes.
 
 ### Random Forest Regressor
 The Random Forest Regressor is an ensemble model consisting of multiple decision trees. It aggregates the predictions from individual trees to arrive at a final prediction. This approach often results in improved accuracy and generalization.
+
+### Gradient Boosting Regressor
+
 
 ## Evaluation
 The performance of the models is evaluated using the Mean Squared Error (MSE) metric on an independent test dataset. Lower MSE values indicate better predictive accuracy.
